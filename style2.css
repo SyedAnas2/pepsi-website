@@ -1,0 +1,33 @@
+/* .navbar img {
+  height: 100px;
+}
+.navbar-items li a{
+  display: flex;
+  height: 50%;
+  float: right;
+  padding: 05px;
+  margin-top: -05px;
+  display: block;
+}
+.navbar-items :hover{
+font-style: oblique;
+color: rgb(255, 0, 55);
+animation: forwards;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'popins',sans-serif;
+}
+.contect{
+  position: relative;
+  min-height: 100vh;
+  padding: 50px 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+} */
+
+ 

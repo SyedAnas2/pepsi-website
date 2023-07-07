@@ -1,0 +1,63 @@
+.navbar img {
+    height: 90px;
+}
+.navbar-items li a{
+    display: flex;
+    float: right;
+    padding: 10px;
+    text-decoration: none;
+    /* margin-top: -05px; */
+    /* position: fixed; */
+}
+.navbar-items :hover{
+font-style: oblique;
+color: rgb(255, 0, 38);
+animation: forwards;
+}
+.banner img{
+    width: 100%;
+    height: auto;
+
+}
+.HEADER{
+    text-align: center;
+    background: #6ab4ec;
+    color: rgb(32, 39, 240);
+    height: 50px;
+}
+.HEADER :hover{
+    font-style: italic;
+}
+
+.images1 img{
+    transition: all .3s ease-in-out;
+}
+
+.images1 img:hover{
+transform: scale(1.1);
+box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.images2 img{
+    transition: all .3s ease-in-out;
+}
+
+.images2 img:hover{
+transform: scale(1.1);
+box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.images3 img{
+    transition: all .3s ease-in-out;
+}
+
+.images3 img:hover{
+transform: scale(1.1);
+box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.images4 img{
+    transition: all .3s ease-in-out;
+}
+
+.images4 img:hover{
+transform: scale(1.1);
+box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}

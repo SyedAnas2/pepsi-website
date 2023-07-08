@@ -1,18 +1,17 @@
 .navbar img {
     height: 90px;
 }
-.navbar-items li a{
+
+.navbar{
     display: flex;
-    float: right;
-    padding: 10px;
-    text-decoration: none;
-    /* margin-top: -05px; */
-    /* position: fixed; */
+    align-items: center;
+    justify-content: space-between;
 }
-.navbar-items :hover{
-font-style: oblique;
-color: rgb(255, 0, 38);
-animation: forwards;
+
+#navbarSupportedContent{
+    margin-left: 59%;
+    /* display: flex;
+    justify-content: space-between; */
 }
 .banner img{
     width: 100%;
@@ -31,6 +30,8 @@ animation: forwards;
 
 .images1 img{
     transition: all .3s ease-in-out;
+    width: 95%;
+    height: 50vw;
 }
 
 .images1 img:hover{
@@ -39,6 +40,8 @@ box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 .images2 img{
     transition: all .3s ease-in-out;
+    width: 95%;
+    height: 50vw;
 }
 
 .images2 img:hover{
@@ -47,7 +50,8 @@ box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 .images3 img{
     transition: all .3s ease-in-out;
-}
+    width: 95%;
+    height: 50vw;}
 
 .images3 img:hover{
 transform: scale(1.1);
@@ -55,9 +59,27 @@ box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 .images4 img{
     transition: all .3s ease-in-out;
-}
+    width: 95%;
+    height: 50vw;}
 
 .images4 img:hover{
 transform: scale(1.1);
 box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+@media (max-width: 991px) and (min-width:768px){
+
+}
+@media (max-width: 768px) and (min-width:320px){
+    /* .container1 img{
+        width : 315px !important
+    }
+    .container1 .image-2{
+        width: 315px !important;
+    }
+    .container .img1{
+        width: 315px !important;
+    } */
+}
+@media (max-width: 1280px) and (min-width:1025px){
+
 }

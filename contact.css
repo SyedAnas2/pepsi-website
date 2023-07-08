@@ -1,17 +1,16 @@
 .navbar img {
     height: 90px;
 }
-.navbar-items li a{
+.navbar{
     display: flex;
-    float: right;
-    padding: 10px;
-    /* margin-top: -05px; */
-    /* position: fixed; */
+    align-items: center;
+    justify-content: space-between;
 }
-.navbar-items :hover{
-font-style: oblique;
-color: rgb(255, 0, 38);
-animation: forwards;
+
+#navbarSupportedContent{
+    margin-left: 59%;
+    /* display: flex;
+    justify-content: space-between; */
 }
 .container {
     max-width: 500px;

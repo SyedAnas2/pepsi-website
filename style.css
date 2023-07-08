@@ -35,18 +35,20 @@
 .navbar img {
     height: 90px;
 }
-.navbar-items li a{
+
+.navbar{
     display: flex;
-    float: right;
-    padding: 10px;
-    /* margin-top: -05px; */
-    /* position: fixed; */
+    align-items: center;
+    justify-content: space-between;
 }
-.navbar-items :hover{
-font-style: oblique;
-color: rgb(255, 0, 38);
-animation: forwards;
+
+#navbarSupportedContent{
+    margin-left: 59%;
+    /* display: flex;
+    justify-content: space-between; */
 }
+
+
 .banner img {
     width: 100%;
     height: auto;
@@ -95,9 +97,9 @@ video {
     box-sizing: border-box;
 }
 .container{
-    max-width: 1170px;
+    width: 100%;
     height: auto;
-    background: #fc0202;
+    background: #f50404;
     margin: auto;
 }
 .row{
@@ -164,4 +166,21 @@ transition: all 0.5s ease;
 .footer-col .social-link a:hover{
     color: 24262b;
     background: #ffff;
+}
+@media (max-width: 991px) and (min-width:768px){
+
+}
+@media (max-width: 768px) and (min-width:320px){
+    .container1 img{
+        width : 315px !important
+    }
+    .container1 .image-2{
+        width: 315px !important;
+    }
+    .container .img1{
+        width: 315px !important;
+    }
+}
+@media (max-width: 1280px) and (min-width:1025px){
+
 }

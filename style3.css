@@ -1,16 +1,16 @@
 .navbar img {
     height: 90px;
 }
-.navbar-items li a{
-    display: flex;
-    float: right;
-    padding: 10px;
-    margin-top: -05px;
+.navbar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-.navbar-items :hover{
-font-style: oblique;
-color: rgb(255, 0, 43);
-animation: forwards;
+
+#navbarSupportedContent{
+  margin-left: 59%;
+  /* display: flex;
+  justify-content: space-between; */
 }
 .banner img{
     width: 100%;
